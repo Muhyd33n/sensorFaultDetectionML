@@ -1,17 +1,15 @@
-Databricks Machine Learning Projects 
+# Databricks Machine Learning Projects 
 
   
 
-PROBLEM STATEMENT  
-
-  
+## PROBLEM STATEMENT  
 
 The dataset(FaultDataset.csv) used in this project is sample data from vibration sensors in a manufacturing company setting. The imaginary company uses  
 vibration sensors to monitor the machinery within their production line and want to use this data for predictive maintenance – the aim is to be able  
 to classify whether there is a fault with the machine based on the readings from the vibration sensors.  Each row contains twenty vibration sensor readings, and the final
 column identifies whether there was a fault with the machine at the time of the readings. In this column, 0 means there was no fault with the machine and 1 means a fault was identified. 
 
-  TASK  
+## TASK  
 
 1. The uploaded datasets, must exist (and be named) in the following locations:/FileStore/tables/FaultDataset.csv 
 
@@ -24,7 +22,7 @@ column identifies whether there was a fault with the machine at the time of the 
 5) Selection of hyperparameters and model training and evaluation and MLflow experiment tracking 
 
 
-Extra: 
+### Extra: 
 
 I used multiple runs as part of my experiment, for example, training models with different hyperparameters. I also used 3 different models which include DecisionTree Classifier, RandomForest classifier and Gradient-Boosted trees classifier.  
 From the results, both the random forest and gradient boosted tree classifiers outperform the decision tree classifier, with identical accuracy  
